@@ -1,0 +1,53 @@
+
+.mes{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: -300px;
+    scale: 0.6;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: transparent;
+    transition: transform 0.3s ease-out;
+}
+.image-container1 {
+    display: flex;
+    position: absolute;
+    top: 330px;
+    right: 500px;
+    scale: 0.6;
+  }
+  .image-container2 {
+    display: flex;
+    position: absolute;
+    top: 660px;
+    right: 500px;
+    scale: 0.6;
+  }
+  
+  .slide-in {
+    transform: translateX(100%);
+
+  }
+  .slide-out {
+    animation: slideOut 0.3s forwards;
+  }
+  
+  @keyframes slideOut {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .mes-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .mes:hover {
+    transform: translateX(-10px);
+  }
+  

@@ -7,6 +7,7 @@ import HappinessLevel from './components/HappienesLevelComponent'
 import AchievementsList from './components/AchivmentsComponent'
 import StatusBar from './components/ProgressBarComponent'
 import ProgressBarComponent from './components/ProgressBarComponent'
+import RegistrationComponent from './components/RegistrationComponent'
 
 function App() {
   const zalupa = 'eco';
@@ -33,8 +34,9 @@ function App() {
     </div>
     <button className='ach-button'/>
     <img className='bars' src='src/img/bars_plus_recs.png'/>
+    <RegistrationComponent/>
     </>
   )
 }
 
-export default App
+export default App;
