@@ -5,6 +5,8 @@ import FaceComponent from './components/FaceComponent'
 import HappyLevelComponent from './components/HappyLevelComponent'
 import HappinessLevel from './components/HappienesLevelComponent'
 import AchievementsList from './components/AchivmentsComponent'
+import StatusBar from './components/ProgressBarComponent'
+import ProgressBarComponent from './components/ProgressBarComponent'
 
 function App() {
   const zalupa = 'eco';
@@ -29,6 +31,8 @@ function App() {
     <div className='achievements_holder'>
       <AchievementsList achievements={achievementsData} />
     </div>
+    <button className='ach-button'/>
+    <img className='bars' src='src/img/bars_plus_recs.png'/>
     </>
   )
 }

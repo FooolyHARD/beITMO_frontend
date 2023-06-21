@@ -6,9 +6,9 @@
 }
 .top-image-container{
     top: 0;
-    left: 15%;
+    left: 17%;
     position: absolute;
     width: 2000px;
     height: 100px;
-    background-color: #F5EBF5;
+    background-color: transparent;
 }

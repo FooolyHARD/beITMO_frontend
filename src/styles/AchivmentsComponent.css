@@ -1,5 +1,6 @@
 .d-flex{
-    margin-top: 30px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 .ach_icon{
     margin-left: 5px;
@@ -16,4 +17,7 @@
     justify-content: center;
     align-items: center;
     color: black;
+}
+.mr-1.xs.position-relative.padding{
+    height: 130px !important;
 }

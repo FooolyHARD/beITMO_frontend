@@ -29,7 +29,7 @@ const HappyLevelComponent: React.FC<ImageComponentProps> = ({ StringIndex }) => 
 
   return(
     <div className='status'>
-        Твой статус:
+        <img src='src/img/status.png'/>
         <br/>
         Be
         <br></br>

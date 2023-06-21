@@ -36,7 +36,7 @@ const AchievementsList: React.FC<AchievementsListProps> = ({ achievements }) => 
   return (
     <div className='d-flex'>
       {achievements.map((achievement, index) => (
-        <div key={index} className="mr-3 position-relative">
+        <div key={index} className="mr-1 xs position-relative padding">
             <img
                 className='ach_icon'
                 src={getImagePath(achievement.type)}
