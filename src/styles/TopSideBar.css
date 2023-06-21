@@ -1,0 +1,14 @@
+.top-image{
+    top: 10%;
+    width: 60%;
+    display: flex;
+    position: absolute;
+}
+.top-image-container{
+    top: 0;
+    left: 15%;
+    position: absolute;
+    width: 2000px;
+    height: 100px;
+    background-color: #F5EBF5;
+}
