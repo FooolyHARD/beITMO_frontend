@@ -9,7 +9,7 @@ const HappyLevelComponent: React.FC<ImageComponentProps> = ({ StringIndex }) => 
   const getString = (be: string) => {
     switch (be) {
       case 'fr':
-        return 'Friendly';
+        return 'Be <br/> Friendly';
       case 'fit':
         return 'Fit';
       case 'hp':

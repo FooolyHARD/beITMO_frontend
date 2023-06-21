@@ -1,0 +1,15 @@
+.holder {
+    background-color: #F5EBF5;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    top: 55%;
+    left: 35%;
+    font-size: 25px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px black;
+    border-color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
