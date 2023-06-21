@@ -1,0 +1,8 @@
+.status{
+   font-size: 70px;
+   font-family: 'Courier New', Courier, monospace;
+   position: absolute;
+   top: 20%;
+   left: 38%;
+   text-align: left;
+}
