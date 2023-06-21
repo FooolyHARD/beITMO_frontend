@@ -24,7 +24,7 @@ const RegistrationComponent: React.FC = () => {
     if (showMessage) {
       const timer = setTimeout(() => {
         setShowMessage(false);
-      }, 5000);
+      }, 2000);
 
       return () => {
         clearTimeout(timer);
@@ -40,7 +40,7 @@ const RegistrationComponent: React.FC = () => {
             src="src/img/mero1.png"
             alt="Image 1"
             onClick={() => handleImageClick(1)}
-            className={`mero1 ${imagesVisible1 ? 'slide-in' : ''}`}
+            className={`mero1 `}
           />
         </div>
       )}
@@ -50,7 +50,7 @@ const RegistrationComponent: React.FC = () => {
             src="src/img/mero2.png"
             alt="Image 2"
             onClick={() => handleImageClick(2)}
-            className={`mero2 ${imagesVisible2 ? 'slide-in' : ''}`}
+            className={`mero2 `}
           />
         </div>
       )}
@@ -59,7 +59,7 @@ const RegistrationComponent: React.FC = () => {
           <img
             src="src/img/mes.png"
             onClick={handleMessageClick}
-            className={`mes ${showMessage ? 'slide-out' : ''}`}
+            className={`mes ${showMessage ? 'slide-out' : 'slide-in'}`}
           />
         </div>
       )}
